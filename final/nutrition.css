@@ -1,0 +1,383 @@
+#backdrop {
+	background-color: #000099;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+}
+
+#loginform {
+	background-color: #E6E6E6;
+	width: 82%;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	padding: 10px;
+	border: 1px green;
+}
+
+#loginform h2 {
+	text-align: center;
+	font-family: serif;
+}
+
+#loginform span {
+	font-family: Helvetica;
+	font-size: 90%;
+}
+
+#loginform th {
+	text-align: center;
+	font-size: 200%;
+	padding: 20px;
+	background-color: #000099;
+	color: white;
+}
+
+#loginform th, td {
+	width: 100%;
+}
+
+#loginform input[type="radio"] {
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	width: 15%;
+	float: center;
+}
+
+#loginform input[type="button"] {
+	margin-top: 15px;
+	height: 35px;
+	width: 50%;
+	background-color:#000099;
+	color: white;
+	font-family: serif;
+	font-size: 110%;
+	margin-left: auto;
+	margin-right: auto;
+	input-align: center;
+}
+
+#buffer {
+	background-color: #000099;
+	height: 25px;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+
+}
+
+#logout {
+	margin-top: 15px;
+	height: 35px;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+}
+
+#logout input[type="button"] {
+	height: 35px;
+	width: 100%;
+	background-color:#000099;
+	color: white;
+	font-family: serif;
+	font-size: 110%;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+}
+
+#display table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	table-layout: fixed;
+}
+
+#display table, #display th, #display td, #displayS table, #displayS th, #displayS td, #displayUI th, 
+#displayUI td, #displayUI table {
+	border: 1px solid black;
+	text-align: left;
+
+}
+
+#displayS table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	table-layout: fixed;
+}
+
+#displayUI table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	table-layout: fixed;
+}
+
+#display th, #display td, #displayS th, #displayS td, #displayUI th, #displayUI td {
+	padding: 10px;
+}
+
+#display h4 {
+	text-align: center;
+	font-family: Helvetica;
+	margin-top: 40px;
+}
+
+#display input[type="submit"] {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+}
+
+nav li {
+	float: left;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	margin-left: 15px;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav a:link, nav a:visited {
+	display: block;
+	width: 120px;
+	font-weight: bold;
+	color: white;
+	background-color: #000099;
+	text-align: center;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	margin-top: 0px;
+	font-family: Helvetica;
+}	
+
+nav a:hover, nav a:active {
+	background-color: #303030;
+}
+
+#headers {
+	font-family: Helvetica;
+	font-size: 140%;
+	padding-top: 10px;
+	margin: 15px;
+	margin-top: 0px;
+	padding-bottom: 15px;
+	background-color: #F0F0F0;
+}
+
+#headers h1 {
+	padding-left: 50px;
+}
+
+#headers h4 {
+	color: #808080;
+	font-size: 80%;
+	font-family: Georgia;
+	padding-left: 50px;
+}
+
+#main h2 {
+	text-align: center;
+	font-family: Helvetica;
+}
+
+#main form[id="updateAcct"] {
+	font-family: Helvetica;
+	margin-left: 15px;
+	padding: 20px;
+}
+
+#main form[id="updateAcct"] input {
+	margin-top: 20px;
+}
+
+#main form[id="update"]  {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	float: center;
+}
+
+#main form[id="update"] input {
+	height: 50px;
+	width: 100%;
+	background-color:#000099;
+	color: white;
+	font-family: Helvetica;
+	font-size: 110%;
+	padding: 13px;
+}
+
+#main form[id="update"] input:hover {
+	background-color: #303030;
+}
+
+#updateButton {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	margin-top: 15px;
+}
+
+#main input[type="button"] {
+	height: 50px;
+	width: 100%;
+	background-color:#000099;
+	color: white;
+	font-family: Helvetica;
+	font-size: 110%;
+	padding: 13px;
+	float: center;
+}
+
+#main h2 {
+	margin-bottom: 5px;
+}
+
+#adds {
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	float: center;
+	font-size: 85%;
+}
+
+#main table[id="adds"] {
+	width: 40%;
+	table-layout: fixed;
+}
+
+#message {
+	background-color: #C0C0C0;
+	font-size: 130%;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 40%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#update {
+	margin-right: auto;
+	margin-left: auto;
+	width: 30%;
+	float: center;
+	font-size: 95%;
+}
+
+#updateAcct input {
+	height: 23px;
+}
+
+#updateAcct {
+	border-color: #80B2FF;
+	border-width: 5px;
+	border-style: groove;
+	margin-bottom: 20px;
+}
+
+#directionsF {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	border-color: #80B2FF;
+	border-width: 5px;
+	border-style: groove;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: Helvetica;
+	padding: 10px;
+}
+
+#updateAcct select {
+	margin-top: 20px;
+	height: 24px;
+}
+
+#updateAcct td {
+	width: 200px;
+}
+
+#updateAcct button {
+	height: 30px;
+	background-color: #F0F0F0;
+	color: black;
+	font-size: 80%;
+	padding: 5px;
+	width: 100px;
+	margin-top: 20px;
+}
+
+#activity {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+}
+
+#addSub, #add input[type="button"] {
+	height: 50px;
+	width: 100%;
+	background-color:#000099;
+	color: white;
+	font-family: Helvetica;
+	font-size: 110%;
+	padding: 13px;
+	float: center;
+}
+
+#directions {
+	font-family: Helvetica;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	text-align: center;
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#photo {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-color: #80B2FF;
+	border-width: 5px;
+	border-style: groove;
+	padding: 10px;
+}
+
+#photo table {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;	
+}
+
+.autoResizeImage {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	text-align: center;
+}
